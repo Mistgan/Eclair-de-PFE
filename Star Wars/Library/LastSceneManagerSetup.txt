@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/Star_Wars.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
