@@ -112,14 +112,14 @@ public class Spaceflight : MonoBehaviour {
 
         if (Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift))
         {
-            if(ControlThrust < 100.0f)
-                ControlThrust += 5f;
+            if(ControlThrust < 10.0f)
+                ControlThrust += 0.025f;
         }
 
         if (Input.GetKey(KeyCode.LeftControl) || Input.GetKey(KeyCode.RightControl))
         {
             if (ControlThrust > -2.0f)
-                ControlThrust -= 0.5f;
+                ControlThrust -= 0.025f;
         }
 
 

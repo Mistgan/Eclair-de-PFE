@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.552464, g: 0.7805754, b: 0.7801193, a: 1}
+  m_IndirectSpecularColor: {r: 0.5526802, g: 0.78069305, b: 0.78004366, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -190,17 +190,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: d6a1faadb57f3514c9093b8ae1564161,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 5000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d6a1faadb57f3514c9093b8ae1564161,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 5000
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: d6a1faadb57f3514c9093b8ae1564161,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 5000
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d6a1faadb57f3514c9093b8ae1564161, type: 3}
@@ -783,7 +783,12 @@ PrefabInstance:
     - target: {fileID: 20604074406603214, guid: 936f69c856339ba45baa583e8525d697,
         type: 3}
       propertyPath: far clip plane
-      value: 1000000
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 20604074406603214, guid: 936f69c856339ba45baa583e8525d697,
+        type: 3}
+      propertyPath: near clip plane
+      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 936f69c856339ba45baa583e8525d697, type: 3}
@@ -891,17 +896,17 @@ PrefabInstance:
     - target: {fileID: -4216859302048453862, guid: 449e2f8cd8c5d824b9fdc51fc3e24e90,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 449e2f8cd8c5d824b9fdc51fc3e24e90,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.23437488
+      value: 5.53
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 449e2f8cd8c5d824b9fdc51fc3e24e90,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.33203113
+      value: -0.7
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: 449e2f8cd8c5d824b9fdc51fc3e24e90,
         type: 3}
@@ -1079,15 +1084,15 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1475245998}
-  m_LocalRotation: {x: -0, y: -0.76409525, z: -0, w: 0.6451035}
-  m_LocalPosition: {x: 142.91396, y: 7246, z: -35389.73}
-  m_LocalScale: {x: 373.2069, y: 373.2069, z: 373.2069}
+  m_LocalRotation: {x: -0, y: 0.24939482, z: -0, w: 0.9684019}
+  m_LocalPosition: {x: -18205.25, y: 75.56, z: -53661.57}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 963194228}
   - {fileID: 752209631}
   m_Father: {fileID: 0}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: -99.65301, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 28.883001, z: 0}
 --- !u!64 &1475246000
 MeshCollider:
   m_ObjectHideFlags: 0
