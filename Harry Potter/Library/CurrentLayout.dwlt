@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 544}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -45,7 +45,7 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 821
-  m_MinSize: {x: 950, y: 544}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &3
 MonoBehaviour:
@@ -115,7 +115,7 @@ MonoBehaviour:
   m_MinSize: {x: 713, y: 494}
   m_MaxSize: {x: 18008, y: 14044}
   vertical: 0
-  controlID: 113
+  controlID: 132
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_MinSize: {x: 202, y: 444}
   m_MaxSize: {x: 4002, y: 8044}
   vertical: 1
-  controlID: 114
+  controlID: 133
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -219,7 +219,7 @@ MonoBehaviour:
   m_MinSize: {x: 234, y: 494}
   m_MaxSize: {x: 10004, y: 14044}
   vertical: 1
-  controlID: 60
+  controlID: 52
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -416,9 +416,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 0.9735055, y: 76.3687, z: 6.8585515}
+    m_Target: {x: 2.2643328, y: 76.189415, z: 6.7888737}
     speed: 2
-    m_Value: {x: 0.9735055, y: 76.3687, z: 6.8585515}
+    m_Value: {x: 2.2643328, y: 76.189415, z: 6.7888737}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -447,9 +447,9 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.013494201, y: -0.02458011, z: 0.0003631225, w: 0.99963987}
+    m_Target: {x: 0.026927078, y: 0.072827674, z: -0.001936684, w: 0.99701214}
     speed: 2
-    m_Value: {x: 0.013493194, y: -0.026078677, z: 0.00038335068, w: 0.99956876}
+    m_Value: {x: 0.026914088, y: 0.07880581, z: -0.0020981417, w: 0.99652445}
   m_Size:
     m_Target: 6.6452355
     speed: 2
@@ -559,9 +559,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 82f9ffff
-      m_LastClickedID: -1662
-      m_ExpandedIDs: 8efbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: e0f5ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -623,21 +623,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Keyboard Spaceflight Controller/Scripts
+    - Assets
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Keyboard Spaceflight Controller/Scripts
+  - Assets
   m_LastFoldersGridSize: 16
-  m_LastProjectPath: "D:\\Documents\\EFREI\\M2\\Projet de fin d'\xE9tude\\Eclair-de-PFE\\Harry
-    Potter"
+  m_LastProjectPath: D:\Documents\EFREI\M2\PFE\Eclair-de-PFE\Harry Potter
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 444}
-    m_SelectedIDs: c0290000
-    m_LastClickedID: 10688
-    m_ExpandedIDs: 00000000922900008e2a00004a2b0000682c000016300000623800008438000050390000163c00002c3d0000c03f000088410000d2480000ca4f0000bc510000627600006476000066760000687600006a7600006c76000000ca9a3b
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: ce3e0000
+    m_LastClickedID: 16078
+    m_ExpandedIDs: 00000000ce3e0000ca3f000086400000a4410000524500009c4d0000be4d00008a4e00005051000066520000f8540000c05600000a5e000002650000f4660000848b0000868b0000888b00008a8b00008c8b00008e8b000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -665,7 +664,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000922900008e2a00004a2b0000682c000016300000623800008438000050390000163c00002c3d0000c03f000088410000d2480000ca4f0000bc510000627600006476000066760000687600006a7600006c760000
+    m_ExpandedIDs: 00000000ce3e0000ca3f000086400000a4410000524500009c4d0000be4d00008a4e00005051000066520000f8540000c05600000a5e000002650000f4660000848b0000868b0000888b00008a8b00008c8b00008e8b0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
